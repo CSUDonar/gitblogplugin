@@ -13,7 +13,7 @@ public class UploadUtil {
     static String username="root";
     static String host="ssh.byatern.com";
     static int port=22;
-    static String password="Donar940613";
+    static String password="xxxxxx";
     public static void upload(File[] resources,String destPath,File[] localFiles) throws JSchException, SftpException, IOException {
         ChannelSftp sftp = null;
         JSch jsch = new JSch();
